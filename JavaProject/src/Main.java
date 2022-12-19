@@ -4,5 +4,6 @@ public class Main {
         System.out.println("Никого кругом, листья падают в бассейн");
         System.out.println("Сотни телефонных номеров, да всё не те");
         System.out.println("Другом быть легко, никто не подавал пример");
+
     }
 }
