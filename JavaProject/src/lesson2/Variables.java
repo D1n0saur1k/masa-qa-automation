@@ -1,3 +1,5 @@
+package lesson2;
+
 public class Variables {
     public static void main(String[] args) {
         byte myByte;
