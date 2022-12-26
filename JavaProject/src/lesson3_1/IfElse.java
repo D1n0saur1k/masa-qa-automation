@@ -8,7 +8,8 @@ public class IfElse {
 
         System.out.println("Please Enter Your Age... ");
         int age = input.nextInt();
-        if (age > 18) {
+        String whoAreYou;
+ /*               if (age > 18) {
             System.out.println("U'r Adult");
         }
 
@@ -18,7 +19,11 @@ public class IfElse {
         }
 
         else {
-            System.out.println("U'r too young");
+              System.out.println("U'r too young");
+*/
+        whoAreYou = (age == 18) ? "ur 18" : (age > 18) ? "ur Ad" : "ur young";
+        System.out.println(whoAreYou);
+
+
         }
     }
-}
