@@ -1,4 +1,4 @@
-package lesson3_1.HW;
+package lesson3_1.hw;
 
 import java.util.Scanner;
 public class Months {
