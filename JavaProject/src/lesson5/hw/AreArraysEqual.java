@@ -27,6 +27,8 @@ public class AreArraysEqual {
         System.out.println(otvet);
         boolean answer = ArrayE(pis,  pop);
         System.out.println(answer);
+
+        input.close();
     }
 
     public static boolean ArrayS (int pis[], int pop[]) {
