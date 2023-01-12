@@ -1,5 +1,6 @@
 package lesson5.hw;
 import java.sql.Array;
+import java.util.Arrays;
 import java.util.Scanner;
 public class AreArraysEqual {
     public static void main(String[] args) {
@@ -24,6 +25,12 @@ public class AreArraysEqual {
         }
         boolean otvet = ArrayE(pis,  pop);
         System.out.println(otvet);
+        boolean answer = ArrayE(pis,  pop);
+        System.out.println(answer);
+    }
+
+    public static boolean ArrayS (int pis[], int pop[]) {
+        return Arrays.equals(pis,pop);
     }
     public static boolean ArrayE (int pis[], int pop[]) {
         if (pis.length == pop.length) {
