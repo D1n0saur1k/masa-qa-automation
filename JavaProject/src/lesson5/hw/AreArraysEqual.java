@@ -25,7 +25,7 @@ public class AreArraysEqual {
         }
         boolean otvet = ArrayE(pis,  pop);
         System.out.println(otvet);
-        boolean answer = ArrayE(pis,  pop);
+        boolean answer = ArrayS(pis,  pop);
         System.out.println(answer);
 
         input.close();
